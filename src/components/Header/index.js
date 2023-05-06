@@ -43,11 +43,11 @@ const Nav = styled.nav`
   background-color: white;
 
   @media (max-width: 850px) {
-    width: 500px;
+    width: 700px;
     margin-top: 0.5rem;
   }
   @media (max-width: 425px) {
-    width: 300px;
+    width: 100%;
   }
 
   img {

@@ -42,13 +42,13 @@ const Search = styled.div`
   flex-direction: column;
   margin: 0.5rem;
   @media (max-width: 850px) {
-    max-width: 500px;
+    max-width: 660px;
     margin-left: 0;
     margin-right: 0;
   }
 
   @media (max-width: 425px) {
-    max-width: 300px;
+    max-width: auto;
   }
 
   h2 {

@@ -174,6 +174,12 @@ const Table = styled.table`
     font-size: 12px;
     margin: 0;
   }
+  @media (max-width: 1200px) {
+    /* font-size: 16px; */
+    max-width: 1000px;
+    margin-left: 10%;
+    margin-right: auto;
+  }
 
   tr:nth-child(even) {
     background-color: #c4d961;
@@ -238,12 +244,16 @@ const Pagination = styled.div`
 
   @media (max-width: 425px) {
     font-size: 13px;
-    width: 380px;
   }
   @media (max-width: 850px) {
     width: 400px;
     margin: 0.1rem;
     font-size: 13px;
+  }
+  @media (max-width: 1200px) {
+    margin-top: 1rem;
+    margin-left: 10%;
+    width: 500px;
   }
 
   select {

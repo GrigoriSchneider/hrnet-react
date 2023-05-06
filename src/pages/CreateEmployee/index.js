@@ -163,7 +163,7 @@ const Employee = styled.div`
   font-size: 18px;
 
   @media (max-width: 425px) {
-    width: 280px;
+    width: auto;
   }
 
   h2 {
